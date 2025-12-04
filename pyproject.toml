@@ -1,0 +1,22 @@
+[project]
+name = "rag-learning"
+version = "0.1.0"
+description = "A project for learning RAG (Retrieval-Augmented Generation) with LangChain, LangGraph, LangSmith and ChromaDB"
+authors = [
+    {name = "ANI717"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb",
+    "ipykernel",
+    "langchain",
+    "langchain-openai",
+    "langchain-chroma",
+    "langgraph",
+    "langsmith",
+    "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = []
